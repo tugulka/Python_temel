@@ -8,5 +8,5 @@ def flatten_list(l):
                 flattened_list.append(e)
     flatten(l)
     return flattened_list
-l = [[1,'a',['cat'],2],[[[3]],'dog'],4,5] # Sample list
+l = [[1,'a',['cat'],2],[[[3]],'dog'],4,5] # Örnek liste
 print(flatten_list(l))
